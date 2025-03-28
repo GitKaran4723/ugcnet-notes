@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UGC NET CS - Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-orange-50 text-gray-900 relative overflow-x-hidden">
+  <!-- Navbar -->
+  <header class="bg-red-700 text-white flex justify-between items-center p-4 sticky top-0 z-50">
+    <h1 class="text-2xl font-bold">UGC NET CS</h1>
+    <button id="menuToggle" class="lg:hidden text-2xl focus:outline-none">
+      <i id="menuIcon" class="fas fa-bars"></i>
+    </button>
+    <nav class="hidden lg:flex gap-6 font-medium">
+      <a href="/" class="text-yellow-300 hover:text-white">Home</a>
+      <a href="/syllabus.html" class="hover:text-yellow-300">Syllabus</a>
+      <a href="/practice.html" class="hover:text-yellow-300">Practice</a>
+      <a href="/pyq.html" class="hover:text-yellow-300">PYQs</a>
+      <a href="/updates.html" class="hover:text-yellow-300">Updates</a>
+    </nav>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="lg:hidden hide bg-red-800 text-white text-lg font-medium transform scale-y-0 opacity-0 origin-top shadow-xl">
+    <nav class="flex flex-col items-start p-4 space-y-2 rounded-xl">
+      <a href="/" class="w-full block py-2 px-4 rounded hover:bg-red-700 transition">Home</a>
+      <a href="/syllabus.html" class="w-full block py-2 px-4 rounded hover:bg-red-700 transition">Syllabus</a>
+      <a href="/practice.html" class="w-full block py-2 px-4 rounded hover:bg-red-700 transition">Practice</a>
+      <a href="/pyq.html" class="w-full block py-2 px-4 rounded hover:bg-red-700 transition">PYQs</a>
+      <a href="/updates.html" class="w-full block py-2 px-4 rounded hover:bg-red-700 transition">Updates</a>
+    </nav>
+  </div>
+
+  <!-- Hero -->
+  <section class="py-10 px-4 text-center bg-gradient-to-br from-red-800 to-yellow-600 text-white">
+    <h2 class="text-4xl font-bold mb-4">Welcome to UGC NET CS & Applications</h2>
+    <p class="max-w-2xl mx-auto text-lg">
+      Your one-stop platform for Paper 1 (General) and Paper 2 (Computer Science). Access structured syllabus, micro-topics, concept markdowns, MCQs, PYQs, and latest updates.
+    </p>
+  </section>
+
+  <!-- About the Exam -->
+  <section class="py-10 px-6 bg-white">
+    <h3 class="text-2xl font-semibold text-center text-red-800 mb-6">About the UGC NET Exam</h3>
+    <div class="max-w-4xl mx-auto space-y-4 text-justify">
+      <p><strong>UGC NET</strong> (National Eligibility Test) is conducted to determine the eligibility for Assistant Professorship and Junior Research Fellowship in Indian universities and colleges.</p>
+      <p>This site is dedicated to the <strong>Computer Science and Applications</strong> paper. It includes:</p>
+      <ul class="list-disc list-inside">
+        <li><strong>Paper 1</strong> – Common for all, testing Teaching and Research Aptitude.</li>
+        <li><strong>Paper 2</strong> – Subject-specific: Computer Science and Applications.</li>
+      </ul>
+      <p>The exam is moderately difficult and demands clarity in fundamentals, concept linkage, and frequent revision.</p>
+    </div>
+  </section>
+
+  <!-- Explore Grid -->
+  <section class="py-10 px-6 bg-orange-100">
+    <h3 class="text-2xl font-semibold mb-6 text-center text-gray-800">Explore Resources</h3>
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-center">
+      <a href="/syllabus.html" class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1"><i class="fas fa-list text-xl"></i><p>Syllabus</p></a>
+      <a href="/practice.html" class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1"><i class="fas fa-pencil-alt text-xl"></i><p>Practice</p></a>
+      <a href="/pyq.html" class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1"><i class="fas fa-history text-xl"></i><p>PYQs</p></a>
+      <a href="/updates.html" class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1"><i class="fas fa-bullhorn text-xl"></i><p>Updates</p></a>
+      <a href="/chatbot.html" class="bg-white p-6 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1"><i class="fas fa-robot text-xl"></i><p>Chatbot</p></a>
+    </div>
+  </section>
+
+  <!-- Recents -->
+  <section class="px-4 pb-24" id="recents-section">
+    <h3 class="text-xl font-semibold mb-4 text-center">Recent Activity</h3>
+    <ul id="recents-list" class="space-y-3 max-w-xl mx-auto text-sm text-gray-700"></ul>
+    <div class="text-center mt-4">
+      <button id="show-more-btn" class="text-red-700 hover:underline text-sm">Show More</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-red-700 text-white px-3 py-2 flex justify-around fixed bottom-0 w-full z-40 text-2xl lg:static lg:justify-center lg:gap-6">
+    <a href="https://www.youtube.com/@Upadesha"><i class="fab fa-youtube"></i></a>
+    <a href="https://github.com/GitKaran4723"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/karan-jadhav-03b5a329b/"><i class="fab fa-linkedin"></i></a>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/menu.js"></script>
+  <script src="js/recents.js"></script>
+</body>
+
+</html>

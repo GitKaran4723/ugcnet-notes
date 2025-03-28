@@ -1,0 +1,57 @@
+/* UNIT level */
+#syllabus-root > details {
+    background-color: #fff4f4;
+    border: 1px solid #f87171;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  
+  #syllabus-root > details > summary {
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #b91c1c;
+    cursor: pointer;
+  }
+  
+  /* CHAPTER level */
+  #syllabus-root details details {
+    background-color: #fef2f2;
+    border-left: 3px solid #f87171;
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    border-radius: 0.4rem;
+  }
+  
+  #syllabus-root details details > summary {
+    font-weight: 600;
+    color: #7f1d1d;
+    cursor: pointer;
+  }
+  
+  /* CONCEPT level */
+  #syllabus-root li {
+    margin-left: 1rem;
+    list-style: none;
+  }
+  
+  #syllabus-root li a {
+    display: inline-block;
+    padding: 1rem 0 1rem 0;
+    position: relative;
+    font-size: 0.95rem;
+    color: #1d4ed8;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #syllabus-root li a::before {
+    color: #0ea5e9;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  #syllabus-root li a:hover {
+    color: #dc2626;
+    text-decoration: underline;
+  }
+  
