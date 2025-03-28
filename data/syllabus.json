@@ -11,7 +11,7 @@
               "concepts": [
                 {
                   "name": "Definition & Objectives of Teaching",
-                  "markdown_url": "https://raw.githubusercontent.com/GitKaran4723/ugcnet-notes/refs/heads/main/notes/ugcnet-paper1/unit1/teaching-objectives.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit1/teaching-objectives.md"
                 },
                 {
                   "name": "Levels of Teaching (Memory, Understanding, Reflective)",
@@ -24,11 +24,11 @@
               "concepts": [
                 {
                   "name": "Adolescent & Adult Learners",
-                  "markdown_url": "https://raw.githubusercontent.com/GitKaran4723/ugcnet-notes/refs/heads/main/notes/ugcnet-paper1/unit1/learner-characteristics.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit1/learner-characteristics.md"
                 },
                 {
                   "name": "Teaching Methods: Offline, Online, SWAYAM, MOOCs",
-                  "markdown_url": "https://raw.githubusercontent.com/GitKaran4723/ugcnet-notes/refs/heads/main/notes/ugcnet-paper1/unit1/teaching-methods.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit1/teaching-methods.md"
                 }
               ]
             },

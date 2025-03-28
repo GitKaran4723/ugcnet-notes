@@ -53,6 +53,9 @@ function renderSyllabus(papers) {
 }
 
 async function openConcept(mdUrl) {
+
+  console.log("URL Requested", mdUrl);
+
   const res = await fetch(mdUrl);
   const mdText = await res.text();
 
