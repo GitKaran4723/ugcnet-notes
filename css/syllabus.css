@@ -143,8 +143,68 @@ body.no-scroll::before {
   padding-left: 1.5rem;
 }
 
-.h1{
-  font-size: ;
+/* --- Bullet Points & Lists --- */
+.markdown-content ul,
+.markdown-content ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
 }
+
+.markdown-content ul li {
+  list-style-type: disc;
+  margin-bottom: 0.5rem;
+}
+
+.markdown-content ol li {
+  list-style-type: decimal;
+  margin-bottom: 0.5rem;
+}
+
+/* --- Tables --- */
+.markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+.markdown-content th,
+.markdown-content td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.markdown-content th {
+  background-color: #f3f4f6;
+  font-weight: bold;
+}
+
+/* --- Code Blocks --- */
+.markdown-content code {
+  background-color: #f3f4f6;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.markdown-content pre {
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-left: 4px solid #6366f1;
+  overflow-x: auto;
+  font-family: monospace;
+}
+
+/* --- Blockquote --- */
+.markdown-content blockquote {
+  border-left: 4px solid #f87171;
+  background-color: #fef2f2;
+  padding: 1rem;
+  font-style: italic;
+  color: #374151;
+  margin: 1rem 0;
+}
+
   
   

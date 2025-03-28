@@ -73,9 +73,9 @@ $$
 $$
 
 Where:  
-- \( h \): cache hit ratio  
-- \( t_c \): cache access time  
-- \( t_m \): main memory access time
+- $h$: cache hit ratio  
+- $t_c$: cache access time  
+- $t_m$: main memory access time
 
 ---
 

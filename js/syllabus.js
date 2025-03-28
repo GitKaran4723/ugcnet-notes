@@ -56,27 +56,24 @@ async function openConcept(mdUrl) {
   const res = await fetch(mdUrl);
   const mdText = await res.text();
 
-  const modal = document.getElementById("markdownModal");
-  const body = document.body;
-
-  // Inject Markdown first
   const container = document.getElementById("markdownContent");
-  container.innerHTML = marked.parse(mdText);
+  container.innerHTML = marked.parse(mdText); // Markdown to HTML
 
-  // ✅ THEN remove inherited styles from the headings inside the modal
+  // Fix font overrides
   const headings = container.querySelectorAll("h1, h2, h3, h4, h5, h6");
   headings.forEach(h => {
     h.style.fontSize = "revert";
     h.style.fontWeight = "revert";
   });
 
-  // Show modal and lock scroll
-  modal.classList.add("active");
-  body.classList.add("no-scroll");
-
-  // Render MathJax (for LaTeX)
+  // Render Math
   if (window.MathJax) MathJax.typeset();
+
+  // Show modal and lock background
+  document.getElementById("markdownModal").classList.add("active");
+  document.body.classList.add("no-scroll");
 }
+
 
 
 function closeModal() {
