@@ -59,14 +59,25 @@ async function openConcept(mdUrl) {
   const modal = document.getElementById("markdownModal");
   const body = document.body;
 
-  document.getElementById("markdownContent").innerHTML = marked.parse(mdText);
+  // Inject Markdown first
+  const container = document.getElementById("markdownContent");
+  container.innerHTML = marked.parse(mdText);
+
+  // ✅ THEN remove inherited styles from the headings inside the modal
+  const headings = container.querySelectorAll("h1, h2, h3, h4, h5, h6");
+  headings.forEach(h => {
+    h.style.fontSize = "revert";
+    h.style.fontWeight = "revert";
+  });
+
+  // Show modal and lock scroll
   modal.classList.add("active");
   body.classList.add("no-scroll");
 
-
-  // Render MathJax (if used)
+  // Render MathJax (for LaTeX)
   if (window.MathJax) MathJax.typeset();
 }
+
 
 function closeModal() {
   document.getElementById("markdownModal").classList.remove("active");
