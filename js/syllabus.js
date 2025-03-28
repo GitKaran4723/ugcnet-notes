@@ -27,7 +27,7 @@ async function loadSyllabus() {
             const li = document.createElement('li');
             li.className = 'ml-6 mb-1';
             const a = document.createElement('a');
-            a.href = '#';
+            a.href =  "#";
             a.textContent = '🔹 ' + con.name;
             a.className = 'text-blue-700 hover:underline';
             a.onclick = () => openConcept(con.markdown_url);
