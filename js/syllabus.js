@@ -59,8 +59,6 @@ async function openConcept(mdUrl) {
   window.location.href = `rendernotes.html?mdUrl=${encodeURIComponent(mdUrl)}`;
 }
 
-
-
 function closeModal() {
   document.getElementById("markdownModal").classList.remove("active");
   document.body.classList.remove("no-scroll");
