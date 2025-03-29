@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Viewer</title>
+    
+    <!-- Marked.js for Markdown Parsing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+
+    <!-- MathJax for LaTeX Support -->
+    <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- Prism.js for Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+
+    <style>
+        :root {
+            --bg-light: #ffffff;
+            --bg-dark: #1e1e1e;
+            --bg-sepia: #f4ecd8;
+            
+            --text-light: #333;
+            --text-dark: #f4f4f4;
+            --text-sepia: #5b4636;
+
+            --accent-light: #007bff;
+            --accent-dark: #1f77ff;
+            --accent-sepia: #b5651d;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: var(--bg-light);
+            color: var(--text-light);
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        /* Content Box */
+        .content {
+            width: 90%;
+            max-width: 800px;
+            padding: 30px;
+            border-radius: 10px;
+            border: 2px solid #ddd;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            background: var(--bg-light);
+            color: var(--text-light);
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        a {
+            color: var(--accent-light);
+            text-decoration: none;
+        }
+
+        h1, h2, h3 {
+            color: var(--accent-light);
+        }
+
+        /* Dark Mode */
+        body.dark-mode {
+            background: var(--bg-dark);
+            color: var(--text-dark);
+        }
+
+        body.dark-mode .content {
+            background: var(--bg-dark);
+            color: var(--text-dark);
+            border-color: #444;
+        }
+
+        body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
+            color: var(--accent-dark);
+        }
+
+        body.dark-mode a {
+            color: #66baff;
+        }
+
+        /* Sepia Mode */
+        body.sepia-mode {
+            background: var(--bg-sepia);
+            color: var(--text-sepia);
+        }
+
+        body.sepia-mode .content {
+            background: var(--bg-sepia);
+            color: var(--text-sepia);
+            border-color: #d6c3a3;
+        }
+
+        body.sepia-mode h1, body.sepia-mode h2, body.sepia-mode h3 {
+            color: var(--accent-sepia);
+        }
+
+        body.sepia-mode a {
+            color: #8c4a14;
+        }
+
+        /* Floating Theme Toggle Button */
+        .theme-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease, transform 0.2s;
+        }
+
+        .theme-toggle:hover {
+            background: #0056b3;
+            transform: scale(1.1);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px;
+                max-width: 95%;
+            }
+
+            .theme-toggle {
+                bottom: 15px;
+                right: 15px;
+                width: 45px;
+                height: 45px;
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h2>Rendered Markdown</h2>
+        <div id="markdownContent"></div>
+    </div>
+
+    <!-- Floating Theme Toggle Button -->
+    <button class="theme-toggle" onclick="toggleTheme()">🎨</button>
+
+    <script>
+        let currentTheme = 'light';
+
+        async function loadMarkdown() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const mdUrl = urlParams.get("mdUrl");
+
+            if (!mdUrl) {
+                document.getElementById("markdownContent").innerHTML = "<p>Error: No markdown file provided.</p>";
+                return;
+            }
+
+            try {
+                const res = await fetch(mdUrl);
+                const mdText = await res.text();
+                const container = document.getElementById("markdownContent");
+                container.innerHTML = marked.parse(mdText);
+
+                if (window.MathJax) MathJax.typeset();
+                Prism.highlightAll();
+            } catch (error) {
+                console.error("Error fetching markdown:", error);
+            }
+        }
+
+        loadMarkdown();
+
+        function toggleTheme() {
+            const themes = ['light', 'dark', 'sepia'];
+            let index = themes.indexOf(currentTheme);
+            currentTheme = themes[(index + 1) % themes.length];
+
+            document.body.classList.remove("dark-mode", "sepia-mode");
+            if (currentTheme === "dark") {
+                document.body.classList.add("dark-mode");
+            } else if (currentTheme === "sepia") {
+                document.body.classList.add("sepia-mode");
+            }
+        }
+    </script>
+
+</body>
+</html>

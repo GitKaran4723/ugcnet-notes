@@ -53,28 +53,10 @@ function renderSyllabus(papers) {
 }
 
 async function openConcept(mdUrl) {
-
   console.log("URL Requested", mdUrl);
 
-  const res = await fetch(mdUrl);
-  const mdText = await res.text();
-
-  const container = document.getElementById("markdownContent");
-  container.innerHTML = marked.parse(mdText); // Markdown to HTML
-
-  // Fix font overrides
-  const headings = container.querySelectorAll("h1, h2, h3, h4, h5, h6");
-  headings.forEach(h => {
-    h.style.fontSize = "revert";
-    h.style.fontWeight = "revert";
-  });
-
-  // Render Math
-  if (window.MathJax) MathJax.typeset();
-
-  // Show modal and lock background
-  document.getElementById("markdownModal").classList.add("active");
-  document.body.classList.add("no-scroll");
+  // Navigate to rendernotes.html and pass mdUrl as a query parameter
+  window.location.href = `rendernotes.html?mdUrl=${encodeURIComponent(mdUrl)}`;
 }
 
 
