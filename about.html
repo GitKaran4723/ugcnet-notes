@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        :root {
+            --bg-light: #ffffff;
+            --bg-dark: #1e1e1e;
+            --bg-sepia: #f4ecd8;
+            
+            --text-light: #333;
+            --text-dark: #f4f4f4;
+            --text-sepia: #5b4636;
+
+            --accent-light: #007bff;
+            --accent-dark: #1f77ff;
+            --accent-sepia: #b5651d;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body class="bg-orange-50 text-gray-900 relative overflow-x-hidden">
+    <!-- Hero Section -->
+    <section class="py-10 px-4 text-center bg-gradient-to-br from-red-800 to-yellow-600 text-white">
+        <h2 class="text-4xl font-bold mb-4">Acknowledging Our Contributors</h2>
+        <p class="max-w-2xl mx-auto text-lg">
+            This platform is made possible by the dedication and contributions of passionate individuals. Their expertise, achievements, and hard work help shape this knowledge hub.
+        </p>
+    </section>
+
+    <div class="max-w-4xl mx-auto p-6">
+        <h1 class="text-3xl font-bold text-red-700 mb-6 text-center">About Us</h1>
+        <div id="aboutContainer" class="space-y-6"></div>
+    </div>
+
+    <script>
+        async function loadAbout() {
+            try {
+                const response = await fetch('data/about.json');
+                const data = await response.json();
+                const container = document.getElementById("aboutContainer");
+                container.innerHTML = "";
+
+                data.forEach(person => {
+                    const profile = document.createElement("div");
+                    profile.classList.add("bg-white", "p-6", "rounded-xl", "shadow", "hover:shadow-xl", "transition", "flex", "flex-col", "items-center", "md:flex-row", "md:items-center");
+                    profile.innerHTML = `
+                        <img src="${person.photo}" alt="${person.name}" class="w-24 h-24 rounded-full border-4 border-red-600 mb-4 md:mb-0 md:mr-6">
+                        <div class="text-center md:text-left">
+                            <h2 class="text-xl font-semibold text-red-700">${person.name}</h2>
+                            <span class="text-sm font-medium bg-yellow-300 text-red-900 px-3 py-1 rounded-full inline-block mt-1">${person.role}</span>
+                            <p class="mt-2"><strong>Expertise:</strong> ${person.expertise}</p>
+                            <p><strong>Achievements:</strong> ${person.achievements}</p>
+                            <p><strong>Contributions:</strong> ${person.contributions}</p>
+                        </div>
+                    `;
+                    container.appendChild(profile);
+                });
+            } catch (error) {
+                console.error("Error loading about.json:", error);
+                document.getElementById("aboutContainer").innerHTML = "<p class='text-center text-red-700'>Error loading data.</p>";
+            }
+        }
+
+        loadAbout();
+    </script>
+</body>
+</html>
