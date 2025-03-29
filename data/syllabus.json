@@ -15,7 +15,7 @@
                 },
                 {
                   "name": "Levels of Teaching (Memory, Understanding, Reflective)",
-                  "markdown_url": "/notes/ugcnet-paper1/unit1/levels-of-teaching.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit1/levels-of-teaching.md"
                 }
               ]
             },
@@ -37,11 +37,11 @@
               "concepts": [
                 {
                   "name": "Teaching Support Systems",
-                  "markdown_url": "/notes/ugcnet-paper1/unit1/support-systems.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit1/support-systems.md"
                 },
                 {
                   "name": "Evaluation Systems & Innovations",
-                  "markdown_url": "/notes/ugcnet-paper1/unit1/evaluation-systems.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit1/evaluation-systems.md"
                 }
               ]
             }
@@ -55,11 +55,11 @@
               "concepts": [
                 {
                   "name": "Meaning, Types, Characteristics",
-                  "markdown_url": "/notes/ugcnet-paper1/unit2/research-types.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit2/research-types.md"
                 },
                 {
                   "name": "Positivism & Post-positivism",
-                  "markdown_url": "/notes/ugcnet-paper1/unit2/positivism.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit2/positivism.md"
                 }
               ]
             },
@@ -68,19 +68,19 @@
               "concepts": [
                 {
                   "name": "Research Methods (Experimental, Descriptive, etc.)",
-                  "markdown_url": "/notes/ugcnet-paper1/unit2/research-methods.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit2/research-methods.md"
                 },
                 {
                   "name": "Steps of Research",
-                  "markdown_url": "/notes/ugcnet-paper1/unit2/research-steps.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit2/research-steps.md"
                 },
                 {
                   "name": "Thesis & Article Writing",
-                  "markdown_url": "/notes/ugcnet-paper1/unit2/thesis-writing.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit2/thesis-writing.md"
                 },
                 {
                   "name": "ICT in Research & Ethics",
-                  "markdown_url": "/notes/ugcnet-paper1/unit2/ict-ethics.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit2/ict-ethics.md"
                 }
               ]
             }
@@ -94,7 +94,7 @@
               "concepts": [
                 {
                   "name": "Reading Comprehension Techniques",
-                  "markdown_url": "/notes/ugcnet-paper1/unit3/comprehension.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit3/comprehension.md"
                 }
               ]
             }
@@ -108,15 +108,15 @@
               "concepts": [
                 {
                   "name": "Types of Communication",
-                  "markdown_url": "/notes/ugcnet-paper1/unit4/types.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit4/types.md"
                 },
                 {
                   "name": "Effective Communication & Barriers",
-                  "markdown_url": "/notes/ugcnet-paper1/unit4/barriers.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit4/barriers.md"
                 },
                 {
                   "name": "Mass Media and Society",
-                  "markdown_url": "/notes/ugcnet-paper1/unit4/media.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit4/media.md"
                 }
               ]
             }
@@ -130,11 +130,11 @@
               "concepts": [
                 {
                   "name": "Types of Reasoning",
-                  "markdown_url": "/notes/ugcnet-paper1/unit5/reasoning.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit5/reasoning.md"
                 },
                 {
                   "name": "Number & Letter Series",
-                  "markdown_url": "/notes/ugcnet-paper1/unit5/series.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit5/series.md"
                 }
               ]
             },
@@ -143,7 +143,7 @@
               "concepts": [
                 {
                   "name": "Time, Distance, Ratio, Profit, Interest",
-                  "markdown_url": "/notes/ugcnet-paper1/unit5/aptitude.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit5/aptitude.md"
                 }
               ]
             }
@@ -157,11 +157,11 @@
               "concepts": [
                 {
                   "name": "Arguments & Fallacies",
-                  "markdown_url": "/notes/ugcnet-paper1/unit6/arguments.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit6/arguments.md"
                 },
                 {
                   "name": "Deductive & Inductive Reasoning",
-                  "markdown_url": "/notes/ugcnet-paper1/unit6/reasoning.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit6/reasoning.md"
                 }
               ]
             },
@@ -170,7 +170,7 @@
               "concepts": [
                 {
                   "name": "Pramanas, Anumana, Vyapti",
-                  "markdown_url": "/notes/ugcnet-paper1/unit6/indian-logic.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit6/indian-logic.md"
                 }
               ]
             }
@@ -184,15 +184,15 @@
               "concepts": [
                 {
                   "name": "Sources, Types, Classification",
-                  "markdown_url": "/notes/ugcnet-paper1/unit7/sources.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit7/sources.md"
                 },
                 {
                   "name": "Graphical Representation",
-                  "markdown_url": "/notes/ugcnet-paper1/unit7/graphs.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit7/graphs.md"
                 },
                 {
                   "name": "Governance and Data Use",
-                  "markdown_url": "/notes/ugcnet-paper1/unit7/governance.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit7/governance.md"
                 }
               ]
             }
@@ -206,11 +206,11 @@
               "concepts": [
                 {
                   "name": "Terminologies and Internet Basics",
-                  "markdown_url": "/notes/ugcnet-paper1/unit8/ict-basics.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit8/ict-basics.md"
                 },
                 {
                   "name": "E-governance and Digital Initiatives",
-                  "markdown_url": "/notes/ugcnet-paper1/unit8/e-gov.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit8/e-gov.md"
                 }
               ]
             }
@@ -224,15 +224,15 @@
               "concepts": [
                 {
                   "name": "Sustainable Development Goals",
-                  "markdown_url": "/notes/ugcnet-paper1/unit9/sdgs.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit9/sdgs.md"
                 },
                 {
                   "name": "Climate Change & Pollution",
-                  "markdown_url": "/notes/ugcnet-paper1/unit9/climate.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit9/climate.md"
                 },
                 {
                   "name": "Resources & Laws",
-                  "markdown_url": "/notes/ugcnet-paper1/unit9/resources-laws.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit9/resources-laws.md"
                 }
               ]
             }
@@ -246,11 +246,11 @@
               "concepts": [
                 {
                   "name": "Ancient & Post-Independence India",
-                  "markdown_url": "/notes/ugcnet-paper1/unit10/history.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit10/history.md"
                 },
                 {
                   "name": "Learning Programs in India",
-                  "markdown_url": "/notes/ugcnet-paper1/unit10/programs.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit10/programs.md"
                 }
               ]
             },
@@ -259,11 +259,11 @@
               "concepts": [
                 {
                   "name": "Value Education & Environmental Education",
-                  "markdown_url": "/notes/ugcnet-paper1/unit10/values.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit10/values.md"
                 },
                 {
                   "name": "Policy, Governance, Administration",
-                  "markdown_url": "/notes/ugcnet-paper1/unit10/policy.md"
+                  "markdown_url": "notes/ugcnet-paper1/unit10/policy.md"
                 }
               ]
             }
@@ -282,11 +282,11 @@
               "concepts": [
                 {
                   "name": "Propositional and Predicate Logic",
-                  "markdown_url": "/notes/ugcnet-paper2/unit1/logic.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit1/logic.md"
                 },
                 {
                   "name": "Propositional Equivalences and Inference",
-                  "markdown_url": "/notes/ugcnet-paper2/unit1/equivalences.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit1/equivalences.md"
                 }
               ]
             },
@@ -295,7 +295,7 @@
               "concepts": [
                 {
                   "name": "Set Operations and Relations",
-                  "markdown_url": "/notes/ugcnet-paper2/unit1/sets.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit1/sets.md"
                 }
               ]
             },
@@ -304,7 +304,7 @@
               "concepts": [
                 {
                   "name": "Pigeonhole, Permutations, Probability",
-                  "markdown_url": "/notes/ugcnet-paper2/unit1/counting.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit1/counting.md"
                 }
               ]
             },
@@ -313,7 +313,7 @@
               "concepts": [
                 {
                   "name": "Algebraic Structures & Applications",
-                  "markdown_url": "/notes/ugcnet-paper2/unit1/group-theory.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit1/group-theory.md"
                 }
               ]
             },
@@ -322,7 +322,7 @@
               "concepts": [
                 {
                   "name": "Graphs, Trees, Traversals",
-                  "markdown_url": "/notes/ugcnet-paper2/unit1/graph-theory.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit1/graph-theory.md"
                 }
               ]
             },
@@ -331,7 +331,7 @@
               "concepts": [
                 {
                   "name": "Boolean Functions & Simplifications",
-                  "markdown_url": "/notes/ugcnet-paper2/unit1/boolean.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit1/boolean.md"
                 }
               ]
             },
@@ -340,7 +340,7 @@
               "concepts": [
                 {
                   "name": "Linear & Integer Programming, PERT-CPM",
-                  "markdown_url": "/notes/ugcnet-paper2/unit1/optimization.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit1/optimization.md"
                 }
               ]
             }
@@ -354,7 +354,7 @@
               "concepts": [
                 {
                   "name": "Logic Gates, Circuits, Flip-Flops, Registers",
-                  "markdown_url": "/notes/ugcnet-paper2/unit2/digital-logic.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit2/digital-logic.md"
                 }
               ]
             },
@@ -363,7 +363,7 @@
               "concepts": [
                 {
                   "name": "Number Systems, Complements, Floating Point, Errors",
-                  "markdown_url": "/notes/ugcnet-paper2/unit2/data-representation.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit2/data-representation.md"
                 }
               ]
             },
@@ -372,11 +372,11 @@
               "concepts": [
                 {
                   "name": "Register Transfer, Bus Operations, Arithmetic/Logic Microops",
-                  "markdown_url": "/notes/ugcnet-paper2/unit2/microoperations.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit2/microoperations.md"
                 },
                 {
                   "name": "Basic Computer Design and Programming",
-                  "markdown_url": "/notes/ugcnet-paper2/unit2/basic-computer.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit2/basic-computer.md"
                 }
               ]
             },
@@ -385,11 +385,11 @@
               "concepts": [
                 {
                   "name": "Microprogrammed Control Unit Design",
-                  "markdown_url": "/notes/ugcnet-paper2/unit2/control-unit.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit2/control-unit.md"
                 },
                 {
                   "name": "Instruction Formats and Addressing Modes",
-                  "markdown_url": "/notes/ugcnet-paper2/unit2/cpu-architecture.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit2/cpu-architecture.md"
                 }
               ]
             },
@@ -398,11 +398,11 @@
               "concepts": [
                 {
                   "name": "Pipelining and Vector Processing",
-                  "markdown_url": "/notes/ugcnet-paper2/unit2/pipelining.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit2/pipelining.md"
                 },
                 {
                   "name": "I/O Interfaces and DMA",
-                  "markdown_url": "/notes/ugcnet-paper2/unit2/io-organization.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit2/io-organization.md"
                 }
               ]
             },
@@ -411,11 +411,11 @@
               "concepts": [
                 {
                   "name": "Cache, Virtual, Associative Memory",
-                  "markdown_url": "/notes/ugcnet-paper2/unit2/memory-hierarchy.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit2/memory-hierarchy.md"
                 },
                 {
                   "name": "Multiprocessors and Multicore Architectures",
-                  "markdown_url": "/notes/ugcnet-paper2/unit2/multiprocessors.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit2/multiprocessors.md"
                 }
               ]
             }
@@ -429,11 +429,11 @@
               "concepts": [
                 {
                   "name": "Language Paradigms, Syntax, and Binding",
-                  "markdown_url": "/notes/ugcnet-paper2/unit3/language-design.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit3/language-design.md"
                 },
                 {
                   "name": "Translation Phases and Models",
-                  "markdown_url": "/notes/ugcnet-paper2/unit3/translation.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit3/translation.md"
                 }
               ]
             },
@@ -442,11 +442,11 @@
               "concepts": [
                 {
                   "name": "C Programming: Tokens, Control, Pointers, Files",
-                  "markdown_url": "/notes/ugcnet-paper2/unit3/c-programming.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit3/c-programming.md"
                 },
                 {
                   "name": "C++ Programming: OOP, Inheritance, Templates, Streams",
-                  "markdown_url": "/notes/ugcnet-paper2/unit3/cpp-programming.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit3/cpp-programming.md"
                 }
               ]
             },
@@ -455,11 +455,11 @@
               "concepts": [
                 {
                   "name": "OOP Concepts: Class, Object, Inheritance, Polymorphism",
-                  "markdown_url": "/notes/ugcnet-paper2/unit3/oop-concepts.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit3/oop-concepts.md"
                 },
                 {
                   "name": "Web Programming: HTML, XML, Java, Applets, Servlets",
-                  "markdown_url": "/notes/ugcnet-paper2/unit3/web-programming.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit3/web-programming.md"
                 }
               ]
             },
@@ -468,11 +468,11 @@
               "concepts": [
                 {
                   "name": "Display Devices, Raster & Random Scan, Input Devices",
-                  "markdown_url": "/notes/ugcnet-paper2/unit3/graphics-basics.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit3/graphics-basics.md"
                 },
                 {
                   "name": "Line, Circle, Ellipse Drawing Algorithms",
-                  "markdown_url": "/notes/ugcnet-paper2/unit3/drawing-algorithms.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit3/drawing-algorithms.md"
                 }
               ]
             },
@@ -481,11 +481,11 @@
               "concepts": [
                 {
                   "name": "2D Transformations & Viewing Pipeline",
-                  "markdown_url": "/notes/ugcnet-paper2/unit3/2d-transforms.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit3/2d-transforms.md"
                 },
                 {
                   "name": "3D Objects, Curves, Illumination, Projections",
-                  "markdown_url": "/notes/ugcnet-paper2/unit3/3d-graphics.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit3/3d-graphics.md"
                 }
               ]
             }
@@ -499,11 +499,11 @@
               "concepts": [
                 {
                   "name": "DBMS Concepts, Architectures, Data Models",
-                  "markdown_url": "/notes/ugcnet-paper2/unit4/dbms-architecture.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit4/dbms-architecture.md"
                 },
                 {
                   "name": "ER Model, Relational Model, Schema Design",
-                  "markdown_url": "/notes/ugcnet-paper2/unit4/data-modeling.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit4/data-modeling.md"
                 }
               ]
             },
@@ -512,11 +512,11 @@
               "concepts": [
                 {
                   "name": "SQL Basics: DDL, DML, Views, Procedures",
-                  "markdown_url": "/notes/ugcnet-paper2/unit4/sql.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit4/sql.md"
                 },
                 {
                   "name": "Query Optimization, Transactions & Recovery",
-                  "markdown_url": "/notes/ugcnet-paper2/unit4/query-processing.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit4/query-processing.md"
                 }
               ]
             },
@@ -525,11 +525,11 @@
               "concepts": [
                 {
                   "name": "Functional Dependencies & Normal Forms",
-                  "markdown_url": "/notes/ugcnet-paper2/unit4/normalization.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit4/normalization.md"
                 },
                 {
                   "name": "Security and Authorization in DBMS",
-                  "markdown_url": "/notes/ugcnet-paper2/unit4/security.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit4/security.md"
                 }
               ]
             },
@@ -538,11 +538,11 @@
               "concepts": [
                 {
                   "name": "Object, Temporal, Multimedia, XML Databases",
-                  "markdown_url": "/notes/ugcnet-paper2/unit4/advanced-databases.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit4/advanced-databases.md"
                 },
                 {
                   "name": "Distributed and Mobile Databases",
-                  "markdown_url": "/notes/ugcnet-paper2/unit4/distributed.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit4/distributed.md"
                 }
               ]
             },
@@ -551,11 +551,11 @@
               "concepts": [
                 {
                   "name": "OLAP, OLTP, Warehousing, Data Mining Techniques",
-                  "markdown_url": "/notes/ugcnet-paper2/unit4/data-warehousing.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit4/data-warehousing.md"
                 },
                 {
                   "name": "Big Data, MapReduce, Hadoop, NoSQL Systems",
-                  "markdown_url": "/notes/ugcnet-paper2/unit4/bigdata-nosql.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit4/bigdata-nosql.md"
                 }
               ]
             }
@@ -569,11 +569,11 @@
               "concepts": [
                 {
                   "name": "Languages: Machine, Assembly, High-Level",
-                  "markdown_url": "/notes/ugcnet-paper2/unit5/languages.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit5/languages.md"
                 },
                 {
                   "name": "Compilers, Interpreters, Loaders, Linkers, Macros",
-                  "markdown_url": "/notes/ugcnet-paper2/unit5/tools.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit5/tools.md"
                 }
               ]
             },
@@ -582,11 +582,11 @@
               "concepts": [
                 {
                   "name": "OS Design, Services, System Calls, Booting",
-                  "markdown_url": "/notes/ugcnet-paper2/unit5/os-basics.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit5/os-basics.md"
                 },
                 {
                   "name": "Processes and Threads, Synchronization",
-                  "markdown_url": "/notes/ugcnet-paper2/unit5/processes.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit5/processes.md"
                 }
               ]
             },
@@ -595,11 +595,11 @@
               "concepts": [
                 {
                   "name": "Scheduling Algorithms and Multicore Programming",
-                  "markdown_url": "/notes/ugcnet-paper2/unit5/scheduling.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit5/scheduling.md"
                 },
                 {
                   "name": "Deadlock Prevention, Avoidance, Recovery",
-                  "markdown_url": "/notes/ugcnet-paper2/unit5/deadlocks.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit5/deadlocks.md"
                 }
               ]
             },
@@ -608,11 +608,11 @@
               "concepts": [
                 {
                   "name": "Paging, Segmentation, Thrashing, Virtual Memory",
-                  "markdown_url": "/notes/ugcnet-paper2/unit5/memory.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit5/memory.md"
                 },
                 {
                   "name": "File System, RAID, Disk Scheduling",
-                  "markdown_url": "/notes/ugcnet-paper2/unit5/storage.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit5/storage.md"
                 }
               ]
             },
@@ -621,11 +621,11 @@
               "concepts": [
                 {
                   "name": "Access Control, Threats, Cryptography",
-                  "markdown_url": "/notes/ugcnet-paper2/unit5/security.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit5/security.md"
                 },
                 {
                   "name": "Virtual Machines, Linux & Windows, Distributed OS",
-                  "markdown_url": "/notes/ugcnet-paper2/unit5/distributed-os.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit5/distributed-os.md"
                 }
               ]
             }
@@ -639,11 +639,11 @@
               "concepts": [
                 {
                   "name": "Software Process & Lifecycle Models",
-                  "markdown_url": "/notes/ugcnet-paper2/unit6/process-models.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit6/process-models.md"
                 },
                 {
                   "name": "Agile, XP, Scrum, Web Engineering",
-                  "markdown_url": "/notes/ugcnet-paper2/unit6/agile-models.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit6/agile-models.md"
                 }
               ]
             },
@@ -652,11 +652,11 @@
               "concepts": [
                 {
                   "name": "Functional & Non-Functional Requirements, SRS",
-                  "markdown_url": "/notes/ugcnet-paper2/unit6/requirements.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit6/requirements.md"
                 },
                 {
                   "name": "Architectural, Object-Oriented & UI Design",
-                  "markdown_url": "/notes/ugcnet-paper2/unit6/design.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit6/design.md"
                 }
               ]
             },
@@ -665,11 +665,11 @@
               "concepts": [
                 {
                   "name": "Quality Factors, Control & Assurance",
-                  "markdown_url": "/notes/ugcnet-paper2/unit6/quality.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit6/quality.md"
                 },
                 {
                   "name": "Risk Analysis and RMMM",
-                  "markdown_url": "/notes/ugcnet-paper2/unit6/risk.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit6/risk.md"
                 }
               ]
             },
@@ -678,11 +678,11 @@
               "concepts": [
                 {
                   "name": "Size & Cost Estimation, LOC, FP, COCOMO",
-                  "markdown_url": "/notes/ugcnet-paper2/unit6/estimation.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit6/estimation.md"
                 },
                 {
                   "name": "Project Scheduling and Staffing",
-                  "markdown_url": "/notes/ugcnet-paper2/unit6/scheduling.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit6/scheduling.md"
                 }
               ]
             },
@@ -691,11 +691,11 @@
               "concepts": [
                 {
                   "name": "Unit, Integration, Regression, Performance Testing",
-                  "markdown_url": "/notes/ugcnet-paper2/unit6/testing.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit6/testing.md"
                 },
                 {
                   "name": "Configuration Management, Reuse, Reengineering",
-                  "markdown_url": "/notes/ugcnet-paper2/unit6/maintenance.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit6/maintenance.md"
                 }
               ]
             }
@@ -709,11 +709,11 @@
               "concepts": [
                 {
                   "name": "Arrays, Sparse Matrices, Linked Lists",
-                  "markdown_url": "/notes/ugcnet-paper2/unit7/arrays-linkedlists.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit7/arrays-linkedlists.md"
                 },
                 {
                   "name": "Stacks, Queues, Priority Queues",
-                  "markdown_url": "/notes/ugcnet-paper2/unit7/stacks-queues.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit7/stacks-queues.md"
                 }
               ]
             },
@@ -722,11 +722,11 @@
               "concepts": [
                 {
                   "name": "Binary Trees, AVL, B/B+/B* Trees",
-                  "markdown_url": "/notes/ugcnet-paper2/unit7/trees.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit7/trees.md"
                 },
                 {
                   "name": "Graphs, Representation, DFS, BFS",
-                  "markdown_url": "/notes/ugcnet-paper2/unit7/graphs.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit7/graphs.md"
                 }
               ]
             },
@@ -735,11 +735,11 @@
               "concepts": [
                 {
                   "name": "Divide & Conquer, Greedy, Dynamic Programming",
-                  "markdown_url": "/notes/ugcnet-paper2/unit7/design-techniques.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit7/design-techniques.md"
                 },
                 {
                   "name": "Backtracking and Branch & Bound",
-                  "markdown_url": "/notes/ugcnet-paper2/unit7/backtracking.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit7/backtracking.md"
                 }
               ]
             },
@@ -748,11 +748,11 @@
               "concepts": [
                 {
                   "name": "Asymptotic Notations, Recurrences",
-                  "markdown_url": "/notes/ugcnet-paper2/unit7/complexity.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit7/complexity.md"
                 },
                 {
                   "name": "Lower Bound Theory, Reductions",
-                  "markdown_url": "/notes/ugcnet-paper2/unit7/lower-bounds.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit7/lower-bounds.md"
                 }
               ]
             },
@@ -761,11 +761,11 @@
               "concepts": [
                 {
                   "name": "Number Theory, FFT, String Matching",
-                  "markdown_url": "/notes/ugcnet-paper2/unit7/advanced-algos.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit7/advanced-algos.md"
                 },
                 {
                   "name": "Parallel, Approximation & Randomized Algorithms",
-                  "markdown_url": "/notes/ugcnet-paper2/unit7/parallel-randomized.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit7/parallel-randomized.md"
                 }
               ]
             }
@@ -779,23 +779,23 @@
               "concepts": [
                 {
                   "name": "Formal Languages, Non-Computational Problems",
-                  "markdown_url": "/notes/ugcnet-paper2/unit8/formal-languages.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit8/formal-languages.md"
                 },
                 {
                   "name": "Regular Languages, DFA, NDFA, Pumping Lemma",
-                  "markdown_url": "/notes/ugcnet-paper2/unit8/regular-languages.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit8/regular-languages.md"
                 },
                 {
                   "name": "Context-Free Grammars and PDA",
-                  "markdown_url": "/notes/ugcnet-paper2/unit8/context-free.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit8/context-free.md"
                 },
                 {
                   "name": "Turing Machines and Unsolvable Problems",
-                  "markdown_url": "/notes/ugcnet-paper2/unit8/turing-machines.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit8/turing-machines.md"
                 },
                 {
                   "name": "Complexity Classes and Reductions",
-                  "markdown_url": "/notes/ugcnet-paper2/unit8/complexity.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit8/complexity.md"
                 }
               ]
             },
@@ -804,11 +804,11 @@
               "concepts": [
                 {
                   "name": "Grammars, LL(1), LR, LALR Parsing",
-                  "markdown_url": "/notes/ugcnet-paper2/unit8/syntax-parsing.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit8/syntax-parsing.md"
                 },
                 {
                   "name": "Attributes, Dependency Graphs, Type Checking",
-                  "markdown_url": "/notes/ugcnet-paper2/unit8/semantics.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit8/semantics.md"
                 }
               ]
             },
@@ -817,11 +817,11 @@
               "concepts": [
                 {
                   "name": "Storage, Activation Records, Parameter Passing",
-                  "markdown_url": "/notes/ugcnet-paper2/unit8/runtime.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit8/runtime.md"
                 },
                 {
                   "name": "Intermediate Code, Control & Boolean Expressions",
-                  "markdown_url": "/notes/ugcnet-paper2/unit8/intermediate-code.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit8/intermediate-code.md"
                 }
               ]
             },
@@ -830,11 +830,11 @@
               "concepts": [
                 {
                   "name": "Control Flow, Local and Global Optimizations",
-                  "markdown_url": "/notes/ugcnet-paper2/unit8/code-optimization.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit8/code-optimization.md"
                 },
                 {
                   "name": "Instruction Scheduling and Loop Optimization",
-                  "markdown_url": "/notes/ugcnet-paper2/unit8/instruction-scheduling.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit8/instruction-scheduling.md"
                 }
               ]
             }
@@ -848,11 +848,11 @@
               "concepts": [
                 {
                   "name": "Communication Modes, Signals, Transmission Media",
-                  "markdown_url": "/notes/ugcnet-paper2/unit9/data-communication.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit9/data-communication.md"
                 },
                 {
                   "name": "Error Detection, Encoding, Multiplexing",
-                  "markdown_url": "/notes/ugcnet-paper2/unit9/encoding-errors.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit9/encoding-errors.md"
                 }
               ]
             },
@@ -861,11 +861,11 @@
               "concepts": [
                 {
                   "name": "LAN, WAN, MAN, Wireless, Topologies",
-                  "markdown_url": "/notes/ugcnet-paper2/unit9/network-types.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit9/network-types.md"
                 },
                 {
                   "name": "OSI and TCP/IP Models, Protocols and Layers",
-                  "markdown_url": "/notes/ugcnet-paper2/unit9/network-models.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit9/network-models.md"
                 }
               ]
             },
@@ -874,11 +874,11 @@
               "concepts": [
                 {
                   "name": "MAC Protocols, Switching, Routing, VLANs",
-                  "markdown_url": "/notes/ugcnet-paper2/unit9/protocols-routing.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit9/protocols-routing.md"
                 },
                 {
                   "name": "IP Addressing (IPv4, IPv6), TCP, UDP, SCTP",
-                  "markdown_url": "/notes/ugcnet-paper2/unit9/ip-transport.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit9/ip-transport.md"
                 }
               ]
             },
@@ -887,7 +887,7 @@
               "concepts": [
                 {
                   "name": "WWW, DNS, Email Protocols, TELNET, FTP",
-                  "markdown_url": "/notes/ugcnet-paper2/unit9/internet-services.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit9/internet-services.md"
                 }
               ]
             },
@@ -896,11 +896,11 @@
               "concepts": [
                 {
                   "name": "Cryptography, Digital Signatures, Firewalls",
-                  "markdown_url": "/notes/ugcnet-paper2/unit9/security.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit9/security.md"
                 },
                 {
                   "name": "GSM, CDMA, Mobile IP, Wireless Networks",
-                  "markdown_url": "/notes/ugcnet-paper2/unit9/mobile-networks.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit9/mobile-networks.md"
                 }
               ]
             },
@@ -909,11 +909,11 @@
               "concepts": [
                 {
                   "name": "Cloud Models, Virtualization, Storage",
-                  "markdown_url": "/notes/ugcnet-paper2/unit9/cloud-computing.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit9/cloud-computing.md"
                 },
                 {
                   "name": "Basics of Internet of Things (IoT)",
-                  "markdown_url": "/notes/ugcnet-paper2/unit9/iot.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit9/iot.md"
                 }
               ]
             }
@@ -927,11 +927,11 @@
               "concepts": [
                 {
                   "name": "Turing Test, Rational Agents, State Space Search",
-                  "markdown_url": "/notes/ugcnet-paper2/unit10/foundations.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit10/foundations.md"
                 },
                 {
                   "name": "Heuristic Search, Minimax, Alpha-Beta Pruning",
-                  "markdown_url": "/notes/ugcnet-paper2/unit10/search-strategies.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit10/search-strategies.md"
                 }
               ]
             },
@@ -940,11 +940,11 @@
               "concepts": [
                 {
                   "name": "Semantic Networks, Frames, Ontologies",
-                  "markdown_url": "/notes/ugcnet-paper2/unit10/knowledge-representation.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit10/knowledge-representation.md"
                 },
                 {
                   "name": "Expert Systems and Handling Uncertainty",
-                  "markdown_url": "/notes/ugcnet-paper2/unit10/expert-systems.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit10/expert-systems.md"
                 }
               ]
             },
@@ -953,11 +953,11 @@
               "concepts": [
                 {
                   "name": "Linear & Hierarchical Planning, STRIPS",
-                  "markdown_url": "/notes/ugcnet-paper2/unit10/planning.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit10/planning.md"
                 },
                 {
                   "name": "Natural Language Processing and Parsing",
-                  "markdown_url": "/notes/ugcnet-paper2/unit10/nlp.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit10/nlp.md"
                 }
               ]
             },
@@ -966,11 +966,11 @@
               "concepts": [
                 {
                   "name": "Agents, Communication, Semantic Web",
-                  "markdown_url": "/notes/ugcnet-paper2/unit10/agents.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit10/agents.md"
                 },
                 {
                   "name": "Fuzzy Sets, Membership, Inference Systems",
-                  "markdown_url": "/notes/ugcnet-paper2/unit10/fuzzy-logic.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit10/fuzzy-logic.md"
                 }
               ]
             },
@@ -979,11 +979,11 @@
               "concepts": [
                 {
                   "name": "Genetic Algorithms: Encoding, Operators, Cycle",
-                  "markdown_url": "/notes/ugcnet-paper2/unit10/genetic-algorithms.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit10/genetic-algorithms.md"
                 },
                 {
                   "name": "Neural Networks: Perceptrons, MLP, SOM, Hopfield",
-                  "markdown_url": "/notes/ugcnet-paper2/unit10/neural-networks.md"
+                  "markdown_url": "notes/ugcnet-paper2/unit10/neural-networks.md"
                 }
               ]
             }
