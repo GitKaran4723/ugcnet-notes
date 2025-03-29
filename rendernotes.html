@@ -140,6 +140,14 @@
             transform: scale(1.1);
         }
 
+        .image-modal img {
+            max-width: 90%;
+            max-height: 90%;
+            cursor: grab;
+            transition: transform 0.2s ease-in-out;
+        }
+
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .content {
@@ -160,6 +168,7 @@
 <body>
 
     <div class="content">
+
         <div id="markdownContent"></div>
     </div>
 
@@ -205,6 +214,55 @@
                 document.body.classList.add("sepia-mode");
             }
         }
+
+        function enableImagePopup() {
+    document.querySelectorAll("#markdownContent img").forEach(img => {
+        img.style.cursor = "pointer";
+        img.addEventListener("click", function() {
+            openModal(this.src);
+        });
+    });
+}
+
+function openModal(imageSrc) {
+    const modal = document.getElementById("imageModal");
+    const modalImage = document.getElementById("modalImage");
+
+    modalImage.src = imageSrc;
+    modal.style.display = "flex";
+    document.getElementById("mainContent").classList.add("blurred");
+    document.body.style.overflow = "hidden";
+
+    // Enable zoom-in on scroll
+    let scale = 1;
+    modalImage.addEventListener("wheel", function (event) {
+        event.preventDefault();
+        scale += event.deltaY * -0.01;
+        scale = Math.min(Math.max(1, scale), 3); // Limit zoom
+        modalImage.style.transform = `scale(${scale})`;
+    });
+
+    // Close modal when clicking outside the image
+    modal.addEventListener("click", function (event) {
+        if (event.target === modal) {
+            closeModal();
+        }
+    });
+
+    // Close modal with Escape key
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+            closeModal();
+        }
+    });
+}
+
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+    document.getElementById("mainContent").classList.remove("blurred");
+    document.body.style.overflow = "auto";
+}
+
     </script>
 
 </body>
