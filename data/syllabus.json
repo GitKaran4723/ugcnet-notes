@@ -4,6 +4,32 @@
       "name": "Paper 1 - General Paper on Teaching and Research Aptitude",
       "units": [
         {
+          "name": "Unit 0: Vidic Mathematics",
+          "chapters": [
+            {
+              "name" : "Basic Level",
+              "concepts" :[
+                {
+                  "name" : "Miscilaneous Simple Methods",
+                  "markdown_url" : "notes/ugcnet-paper1/unit0/simple_methods.md"
+                },
+                {
+                  "name" : "Criss - Cross system of Multiplication",
+                  "markdown_url": "notes/ugcnet-paper1/unit0/criss_cross.md"
+                },
+                {
+                  "name" : "Squaring Numbers",
+                  "markdown_url": "notes/ugcnet-paper1/unit0/squares.md"
+                },
+                {
+                  "name" : "Square cube roots",
+                  "markdown_url": "notes/ugcnet-paper1/unit0/squares_cube_roots.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Unit 1: Teaching Aptitude",
           "chapters": [
             {

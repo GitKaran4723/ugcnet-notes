@@ -14,23 +14,36 @@
 
   <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
-  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+    </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
 
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
 
   <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+  </script>
   <style>
-
     @font-face {
 
       font-family: 'Open Dyslexic';
 
       src: url('./fonts/OpenDyslexic-Regular.woff2') format('woff2'),
 
-           url('./fonts/OpenDyslexic-Regular.woff') format('woff');
+        url('./fonts/OpenDyslexic-Regular.woff') format('woff');
 
       font-weight: normal;
 
@@ -86,17 +99,38 @@
 
     }
 
-    body.dark-mode { background: var(--bg-dark); color: var(--text-dark); }
+    body.dark-mode {
+      background: var(--bg-dark);
+      color: var(--text-dark);
+    }
 
-    body.sepia-mode { background: var(--bg-sepia); color: var(--text-sepia); }
+    body.sepia-mode {
+      background: var(--bg-sepia);
+      color: var(--text-sepia);
+    }
 
-    h1, h2, h3 { color: var(--accent-light); }
+    h1,
+    h2,
+    h3 {
+      color: var(--accent-light);
+    }
 
-    body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 { color: var(--accent-dark); }
+    body.dark-mode h1,
+    body.dark-mode h2,
+    body.dark-mode h3 {
+      color: var(--accent-dark);
+    }
 
-    body.sepia-mode h1, body.sepia-mode h2, body.sepia-mode h3 { color: var(--accent-sepia); }
+    body.sepia-mode h1,
+    body.sepia-mode h2,
+    body.sepia-mode h3 {
+      color: var(--accent-sepia);
+    }
 
-    a { color: var(--accent-light); text-decoration: none; }
+    a {
+      color: var(--accent-light);
+      text-decoration: none;
+    }
 
 
 
@@ -118,7 +152,10 @@
 
     }
 
-    #topBar span { font-weight: bold; font-size: 16px; }
+    #topBar span {
+      font-weight: bold;
+      font-size: 16px;
+    }
 
 
 
@@ -144,7 +181,7 @@
 
       cursor: pointer;
 
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 
     }
 
@@ -164,7 +201,8 @@
 
     }
 
-    table th, table td {
+    table th,
+    table td {
 
       border: 1px solid #ccc;
 
@@ -184,35 +222,38 @@
 
     .settings-popup {
 
-        position: fixed;
+      position: fixed;
 
-        top: 60px;
+      top: 60px;
 
-        right: 20px;
+      right: 20px;
 
-        background: white;
+      background: white;
 
-        padding: 20px;
+      padding: 20px;
 
-        border-radius: 8px;
+      border-radius: 8px;
 
-        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 
-        z-index: 3000;
+      z-index: 3000;
 
-        display: none;
+      display: none;
 
-        width: 250px;               /* 👈 NEW */
+      width: 250px;
+      /* 👈 NEW */
 
-        overflow: hidden;           /* 👈 NEW */
+      overflow: hidden;
+      /* 👈 NEW */
 
-        font-size: 14px !important;
+      font-size: 14px !important;
 
     }
 
 
 
-    .settings-popup select, .settings-popup input[type='range'] {
+    .settings-popup select,
+    .settings-popup input[type='range'] {
 
       display: block;
 
@@ -232,166 +273,163 @@
 
     .settings-icon {
 
-  background: linear-gradient(to right, #4facfe, #00f2fe);
+      background: linear-gradient(to right, #4facfe, #00f2fe);
 
-  color: white;
+      color: white;
 
-  border: none;
+      border: none;
 
-  border-radius: 50%;
+      border-radius: 50%;
 
-  font-size: 18px;
+      font-size: 18px;
 
-  width: 40px;
+      width: 40px;
 
-  height: 40px;
+      height: 40px;
 
-  cursor: pointer;
+      cursor: pointer;
 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
-  transition: transform 0.2s, background 0.3s;
+      transition: transform 0.2s, background 0.3s;
 
-  display: flex;
+      display: flex;
 
-  align-items: center;
+      align-items: center;
 
-  justify-content: center;
+      justify-content: center;
 
-}
+    }
 
-.settings-icon:hover {
+    .settings-icon:hover {
 
-  transform: scale(1.1);
+      transform: scale(1.1);
 
-  background: linear-gradient(to right, #00c6ff, #0072ff);
+      background: linear-gradient(to right, #00c6ff, #0072ff);
 
-}
+    }
 
-.settings-popup {
+    .settings-popup {
 
-  position: fixed;
+      position: fixed;
 
-  top: 60px;
+      top: 60px;
 
-  right: 20px;
+      right: 20px;
 
-  width: 260px;
+      width: 260px;
 
-  background: rgba(255, 255, 255, 0.85);
+      background: rgba(255, 255, 255, 0.85);
 
-  backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
 
-  -webkit-backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
 
-  padding: 20px;
+      padding: 20px;
 
-  border-radius: 16px;
+      border-radius: 16px;
 
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 
-  font-size: 14px;
+      font-size: 14px;
 
-  font-family: 'Segoe UI', sans-serif;
+      font-family: 'Segoe UI', sans-serif;
 
-  color: #333;
+      color: #333;
 
-  z-index: 3000;
+      z-index: 3000;
 
-  display: none;
+      display: none;
 
-  transition: all 0.3s ease;
+      transition: all 0.3s ease;
 
-  border: 1px solid rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(0, 0, 0, 0.1);
 
-}
+    }
 
 
 
-.settings-popup label {
+    .settings-popup label {
 
-  margin-top: 12px;
+      margin-top: 12px;
 
-  font-weight: 600;
+      font-weight: 600;
 
-  display: block;
+      display: block;
 
-}
+    }
 
 
 
-.settings-popup select,
+    .settings-popup select,
 
-.settings-popup input[type='range'] {
+    .settings-popup input[type='range'] {
 
-  width: 100%;
+      width: 100%;
 
-  margin-top: 6px;
+      margin-top: 6px;
 
-  margin-bottom: 12px;
+      margin-bottom: 12px;
 
-  padding: 6px 10px;
+      padding: 6px 10px;
 
-  border: 1px solid #ccc;
+      border: 1px solid #ccc;
 
-  border-radius: 6px;
+      border-radius: 6px;
 
-  background-color: #fff;
+      background-color: #fff;
 
-  font-family: inherit;
+      font-family: inherit;
 
-  font-size: 14px;
+      font-size: 14px;
 
-  transition: border 0.2s;
+      transition: border 0.2s;
 
-}
+    }
 
 
 
-.settings-popup select:focus,
+    .settings-popup select:focus,
 
-.settings-popup input[type='range']:focus {
+    .settings-popup input[type='range']:focus {
 
-  outline: none;
+      outline: none;
 
-  border-color: #007bff;
+      border-color: #007bff;
 
-}
+    }
 
 
 
-.settings-popup button {
+    .settings-popup button {
 
-  width: 100%;
+      width: 100%;
 
-  padding: 8px 12px;
+      padding: 8px 12px;
 
-  background: #007bff;
+      background: #007bff;
 
-  color: white;
+      color: white;
 
-  border: none;
+      border: none;
 
-  border-radius: 6px;
+      border-radius: 6px;
 
-  cursor: pointer;
+      cursor: pointer;
 
-  font-weight: bold;
+      font-weight: bold;
 
-  transition: background 0.2s;
+      transition: background 0.2s;
 
-}
+    }
 
 
 
-.settings-popup button:hover {
+    .settings-popup button:hover {
 
-  background: #0056b3;
+      background: #0056b3;
 
-}
-
-
-
+    }
   </style>
 
 </head>
@@ -480,29 +518,29 @@
 
     document.addEventListener("click", function (event) {
 
-  const popup = document.getElementById("settingsPopup");
+      const popup = document.getElementById("settingsPopup");
 
-  const settingsBtn = document.querySelector(".settings-icon");
+      const settingsBtn = document.querySelector(".settings-icon");
 
 
 
-  // If clicked outside the popup and not on the settings button
+      // If clicked outside the popup and not on the settings button
 
-  if (
+      if (
 
-    popup.style.display === "block" &&
+        popup.style.display === "block" &&
 
-    !popup.contains(event.target) &&
+        !popup.contains(event.target) &&
 
-    !settingsBtn.contains(event.target)
+        !settingsBtn.contains(event.target)
 
-  ) {
+      ) {
 
-    popup.style.display = "none";
+        popup.style.display = "none";
 
-  }
+      }
 
-});
+    });
 
 
 
@@ -598,6 +636,3 @@
 </body>
 
 </html>
-
-
-    
