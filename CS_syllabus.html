@@ -70,6 +70,10 @@
             const clean = str => encodeURIComponent(str.replace(/:/g, ' -'));
             const filePath = `https://raw.githubusercontent.com/GitKaran4723/UGC_NET-CS-notes/refs/heads/main/${clean(unit)}/${clean(topic)}/${encodeURIComponent(mdFile)}`;
             link.href = `${base}?mdUrl=${filePath}`;
+
+            // Open link in new tab
+            link.target = "_blank";
+
             topicContent.appendChild(link);
           });
 
